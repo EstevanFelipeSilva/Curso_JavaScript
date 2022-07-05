@@ -22,7 +22,7 @@ var a = 2;
     OBSERVE A BAIXO COMO FAZER A CHAMADA DESTA VARIÁVEL.
 */
 
-console.log(a); // destá forma o código retornará o valor 2.
+console.log(a); /* Resultado = 2. */
 
 /*
     A PALAVRA CHAVE ( var ), OCUPA UM ESCOPO GLOBAL DENTRO DO CÓDIGO,
@@ -32,4 +32,4 @@ console.log(a); // destá forma o código retornará o valor 2.
 
 var a = 2; b = 2 + 2; c = 2 + 4; d = 2 * 4; e = 4 + 4 + 2;
 
-console.log(a, b, c, d, e); // aqui ele imprimirá no console os valores 2, 4, 6, 8, 10.
+console.log(a, b, c, d, e); /* aqui ele imprimirá no console os valores 2, 4, 6, 8, 10. */
