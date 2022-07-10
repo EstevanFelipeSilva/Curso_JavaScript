@@ -50,7 +50,9 @@ const carros = ['Ferrari', 'BMW', 'Lamborguini'];
 
 // ao retornar este Array ele irá informar os nomes declarados dentro do
 // Array que é construido através de [];
+
         /* ================================================================= */
+
 // com essa declaração abaixo, você pode alterar o elemento do 
 // Array principal na posição ou no indice [0];
 
@@ -62,3 +64,18 @@ carros[3] = 'Toyota';
 carros.push('Audi');
 
 console.log(carros);
+
+/*
+                MAS VOCÊ NÃO PODE REATRIBUIR A MATRIZ;
+*/
+
+const cars = ['Ferrari', 'Audi', 'BMW'];
+
+cars = ['Toyota', 'Audi', 'BMW'];
+
+console.log(cars); // TypeError: Assignment to constant variable.
+
+/*
+                EXECUTANDO O CÓDIGO DESTA FORMA VOCÊ IRÁ SE DEPARAR
+                COM UM ERROR DE EXECUÇÃO.
+*/
