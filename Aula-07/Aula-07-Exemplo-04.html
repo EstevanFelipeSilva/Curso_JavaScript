@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNÇÕES EM JAVASCRIPT</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+            margin: 15px 15px;
+            padding: 10px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h3>Aplicação de Funções em JavaScript</h3>
+
+    <p id="demo"></p>
+
+    <script>
+
+        document.getElementsById("demo").innerHTML =
+            "A temperatura é " + toCelsius(77) + " Celsius";
+
+        function toCelsius(fahrenheit) {
+            return (5/9) * (fahrenheit-32);
+        }    
+
+    </script>
+
+</body>
+</html>
